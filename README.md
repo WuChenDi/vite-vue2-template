@@ -1,5 +1,9 @@
 # 🚀 Vite-Vue2-Template
 
+> ⚠️ **Important Notice**: Due to the discontinuation of [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2), the official [`@vitejs/plugin-vue2`](https://github.com/vitejs/vite-plugin-vue2) is recommended for use with Vue 2.7 onwards.
+>
+> **This project reached End of Life by the end of 2022**.
+
 - Get started quickly with Vue 2 and Vite using [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2).
 - This template sets up a development environment for `Vue 2.6.14` + `Vite`, providing a fast-paced starting point for your projects.
 - For an updated template supporting Vue 2.7, check out [vite-vue2.7-template](https://github.com/WuChenDi/vite-vue2.7-template).
