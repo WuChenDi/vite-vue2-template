@@ -1,17 +1,33 @@
 {
   "name": "vite-vue2-template",
+  "type": "module",
   "version": "0.0.0",
+  "private": true,
+  "description": "🎉 A simple start for using vue2 with vite",
+  "author": "wudi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WuChenDi/vite-vue2-template.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^2.5.4",
-    "vite-plugin-vue2": "^1.8.2",
-    "vue-template-compiler": "^2.6.14"
+    "preview": "vite preview",
+    "lint": "eslint ./src/**/*.{vue,js}",
+    "lint:fix": "eslint ./src/**/*.{vue,js} --fix",
+    "format": "prettier --check \"./src/**/*.{vue,js}\"",
+    "format:fail": "prettier --check --write \"./src/**/*.{vue,js}\""
   },
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "2.6.14"
+  },
+  "devDependencies": {
+    "@cdlab996/eslint-config-vue2": "0.0.13",
+    "@cdlab996/prettier-config": "0.0.13",
+    "eslint": "8.57.0",
+    "prettier": "3.3.1",
+    "vite": "4.5.3",
+    "vite-plugin-vue2": "2.0.3",
+    "vue-template-compiler": "2.6.14"
   }
 }
